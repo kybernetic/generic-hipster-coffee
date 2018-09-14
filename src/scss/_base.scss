@@ -10,6 +10,10 @@ body {
     justify-content: center;
 }
 
+#navbarResponsive {
+    margin-left: 150%;
+}
+
 .navbar-header {
     display: flex;
     flex-flow: column nowrap;
@@ -75,12 +79,16 @@ h4 {
     background-color: darkgray;
 }
 
-.carousel-caption {
-    font-weight: 300;
-    text-align: center;
-    font-size: 18px;
 
-    
+.carousel-caption {
+    text-align: center;
+    p {
+        display: none;
+
+    }
+    h2 {
+        font-size: 18px;
+    }
 }
 
 
@@ -97,6 +105,21 @@ h4 {
             width: calc(50%-10px);
             width: 50%;
         }
+    }
+
+    .carousel-caption {
+        p {
+            display: block;
+            
+        }
+        h2 {
+            font-size: 25px;
+        }
+
+    }
+
+    .ourstorytext {
+        display: none;
     }
 
 }
