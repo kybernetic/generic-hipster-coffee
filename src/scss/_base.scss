@@ -1,0 +1,33 @@
+// Your own styles
+
+.navbar-header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+   
+
+.navbar-nav {
+    display: flex;
+    flex-flow: row;
+    
+}
+
+.nav-item {
+    padding: 0 5px;
+}
+
+h4 {
+    margin: 2rem 0;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+}
