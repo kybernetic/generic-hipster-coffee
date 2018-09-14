@@ -33,9 +33,37 @@ body {
     
 }
 
-.nav-item {
+#navitems {
+    text-decoration: none;
+  }
+  
+    .Jumbotron-BackroundColor{
+      width: 100%;
+      
+      height: 200px;
+      background-color: #f8f9fa;
+    }
+  
+  .jumbotron-fluid {
+        height:200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+  #logo{
+    width: 20%;
+    height: 100%;
+  }
+
+
+
+
+
+
+/* .nav-item {
     padding: 0 5px;
-}
+} */
 
 h4 {
     margin: 2rem 0;
@@ -79,11 +107,17 @@ h4 {
     background-color: darkgray;
 }
 
+.ourstorytext {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
 
 .carousel-caption {
-    text-align: center;
+    
+    
     p {
         display: none;
+        padding-bottom: 100px;
 
     }
     h2 {
@@ -110,6 +144,7 @@ h4 {
     .carousel-caption {
         p {
             display: block;
+            text-align: center;
             
         }
         h2 {
@@ -119,7 +154,9 @@ h4 {
     }
 
     .ourstorytext {
-        display: none;
+        display: none !important;
+        font-family: 'Roboto Condensed', sans-serif;
+
     }
 
 }
