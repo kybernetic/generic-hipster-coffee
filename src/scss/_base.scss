@@ -49,6 +49,18 @@ h4 {
     text-align: left;
 }
 
+.cardcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: calc(100% - 10px);
+        
+}
+
 
 
 
@@ -57,5 +69,12 @@ h4 {
 
 
 @media screen and (min-width: 768px) {
+    .cardcontainer {
+        flex-flow: row wrap;
+        .card {
+            width: calc(50%-10px);
+
+        }
+    }
 
 }
