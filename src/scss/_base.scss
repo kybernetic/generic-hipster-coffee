@@ -1,9 +1,15 @@
 // Your own styles
 
+.nav0 {
+    display: flex;
+    justify-content: center;
+}
+
 .navbar-header {
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
+    align-items: center; 
+
 }
    
 
@@ -32,8 +38,16 @@ h4 {
         color: blue;
         text-decoration: underline;
     }
-} 
+}
 
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu h2, h3 {
+    text-align: left;
+}
 
 
 
